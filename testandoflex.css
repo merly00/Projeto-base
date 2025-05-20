@@ -1,0 +1,22 @@
+body{
+    background-color: brown;
+}
+.container{
+    display: flex;
+    background-color: rgb(3, 15, 15);
+    gap: 10px ;
+    /* height: 600px; */
+    /* justify-content: center; */
+        /* gap: 20px 40px; */
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.item-3{
+    flex-grow: 1;
+}
